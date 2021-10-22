@@ -13,5 +13,5 @@ COPY . /app
 EXPOSE 5000
 
 ENTRYPOINT [ "flask" ]
-CMD [ "run", "--host", "0.0.0.0" ]
+CMD [ "run", "--host", "0.0.0.0" ]:
 
