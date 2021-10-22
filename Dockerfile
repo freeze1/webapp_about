@@ -1,4 +1,5 @@
-FROM python:3.9-alpine
+ARG REPO=915557013024.dkr.ecr.us-east-1.amazonaws.com
+FROM ${REPO}/python-3:latest
 
 COPY ./requirements.txt /app/requirements.txt
 WORKDIR /app
