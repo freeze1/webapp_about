@@ -6,10 +6,11 @@ print(__name__)
 @app.route("/")
 def hello_world():
     return 'Hello World: ECS Standard'
-@app.route("/<username>/<int:post_id>")
-def hello_world(username=None, post_id=None):
-    # print(url_for('static', filename='bank_icon.ico'))
-    return render_template('index.html', name=username, post_id=post_id)
+
+# @app.route("/<username>/<int:post_id>")
+# def hello_world(username=None, post_id=None):
+#     # print(url_for('static', filename='bank_icon.ico'))
+#     return render_template('index.html', name=username, post_id=post_id)
 
 @app.route("/about.html")
 def about():
