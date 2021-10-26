@@ -29,4 +29,3 @@ artifacts:
     - imageDetail.json
     - taskdef.json
     - appspec.yml
-
